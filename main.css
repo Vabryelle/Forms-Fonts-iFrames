@@ -9,6 +9,7 @@ header{
 	width:100%;
 	text-align: center;
 	background-color: cadetblue;
+	font-family: 'Open Sans Condensed', sans-serif;
 	
 }
 .flex-container{
@@ -27,13 +28,16 @@ header{
 	flex-direction: column;
 	background-color: darkgrey;
 	text-decoration: underline;
+	font-family: 'Oswald', sans-serif;
 }
 .flex-container .nav2{
 	flex-direction: column;
 	background-color: lightblue;
+	font-family: 'Oswald', sans-serif;
 }
 .flex-container .nav3{
-	background-color: burlywood
+	background-color: burlywood;
+	font-family: 'Oswald', sans-serif;
 }
 
 footer{ 
@@ -54,4 +58,14 @@ footer{
 }
 h2{text-align: center;
 	font-weight: bold;
+	font-family: 'Cairo', sans-serif;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p2{
+	font-family: 'Inconsolata', monospace;
+	text-decoration-color: black;
 }
